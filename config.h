@@ -42,7 +42,7 @@ static const Rule rules[] = {
 	{ "Sxiv",                NULL,	                NULL,	                1 << 3,           	0,           				0 }, /* Open Sxiv on Tag 4 */
 	{ "Lutris",              NULL,	                NULL,	                1 << 8,           	1,           				0 }, /* Open Lutris on Tag 9 */
 	{ "discord",             NULL,	                NULL,	                1 << 6,           	0,           				0 }, /* Open Discord on Tag 7 */
-	{ "privateinternetaccess", NULL,		NULL,			1 << 5,           	0,           				0 }, /* Open pia-client on Tag 6 */
+	{ "privateinternetaccess", NULL,		        NULL,			        1 << 5,           	0,           				0 }, /* Open pia-client on Tag 6 */
 };
 
 /* layout(s) */

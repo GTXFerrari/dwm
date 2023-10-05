@@ -1,0 +1,9 @@
+# dwm
+
+dwm
+*.orig
+*.rej
+util.o
+dwm.o
+drw.o
+config.h

@@ -35,10 +35,10 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
+	/* class            instance            title             tags mask         isfloating   monitor */
   { "Steam",          "Steam",          "Steam",            1 << 8,               0,               0 },
   { "Steam",          "Steam",         "Friends List",      1 << 8,               1,               0 },                                                                                     
-  { "Steam",          "Steam",         "Steam Settings",      1 << 8,               1,               0 },                                                                                     
+  { "Steam",          "Steam",         "Steam Settings",    1 << 8,               1,               0 },                                                                                     
   { "Lutris",           NULL,             NULL,             1 << 8,               1,               0 }, 
   { "discord",          NULL,             NULL,             1 << 7,               0,               0 },
 };
